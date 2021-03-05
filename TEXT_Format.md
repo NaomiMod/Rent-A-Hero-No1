@@ -1,7 +1,11 @@
 #  Text format struct
 
 Every char is mapped by a `uint16` short value, corresponding to a ASCII character used by game font.
-Regular text box holds a maximum of `3 text rows`. Each row can be 320 px wide max, after that it will automatically cut & wrap text to the next row.
+
+Regular text box holds a maximum of `3 text rows`.
+
+Each row can be 320 px wide max, after that it will automatically cut & wrap text to the next row.
+
 A regular western char is usually taking `8 pixels` whilst most of japanese chars `16 pixels`.
 
 Other than ASCII, certain values provide additional text formatting / game global parameter / text effect, as per table below:
@@ -11,7 +15,7 @@ Other than ASCII, certain values provide additional text formatting / game globa
 |Value|Description|
 |-------|------------|
 |0x0180|  Return, next row|
-|0x0280|  Clear all displayed text *|
+|0x0280|  Clear all text *|
 |0xa74d|	SPACE (8px)|
 |0x504e|	SPACE (8px)|
 |0x0000|  SPACE (16px)|
@@ -34,7 +38,7 @@ Other than ASCII, certain values provide additional text formatting / game globa
 |0x5188|  BATTLES LOST|
 
 
-*Used to display long text continuously, without having to press a button to continue.
+*Used to display long text continuously,.
 
 
 
