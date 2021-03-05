@@ -4,7 +4,7 @@ Every char is mapped by a `uint16` short value, corresponding to a ASCII charact
 
 Regular text box holds a maximum of `3 text rows`.
 
-Each row can be 320 px wide max, after that it will automatically cut & wrap text to the next row.
+`Each row can be 320 px wide max`, after that it will automatically `cut & wrap text` to the next row.
 
 A regular western char is usually taking `8 pixels` whilst most of japanese chars `16 pixels`.
 
