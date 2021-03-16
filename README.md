@@ -2,8 +2,12 @@
 
 This repo is a collection of documents regarding Rent-A-Hero No.1 text format.
 
--Text Format Struct
--1RENTA.bin Struct
--Scenario .SNR Struct
+- [Text Format Struct](TEXT_Format.md)
+
+- [1RENTA.bin Struct](1RENTA.bin_Text_Struct.md)
+
+- [Scenario .SNR Struct](SNR_Files.md)
+
+
 
 Feel free to add/modify these with new infos, just give due credit if used for own personal mods.
