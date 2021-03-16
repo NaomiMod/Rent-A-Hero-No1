@@ -1,6 +1,7 @@
 #  .SNR SCENARIO Text format struct
 
-- SNR are binary archives containing scenario definition and text used by Rent-a-Hero No.1
+SNR are binary archives containing scenario definition and text used by Rent-A-Hero No.1:
+
 - `TEXT DATA`: chunk of game dialogues using [Text Format Struct](TEXT_Format.md).
 - `PARAMETER DATA`: List of floats for positioning chars / camera location on each scene.
 - `TEXT DATA POINTERS`: An array of pointers specifying dialogue offset in .SNR file. 
