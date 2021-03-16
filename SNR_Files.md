@@ -1,9 +1,11 @@
 #  .SNR SCENARIO Text format struct
 
-SNR is the text format used by Rent-a-Hero No.1 for Dreamcast, `TEXT DATA` are text sentences composed by chars (uint short).
-`PARAMETER DATA` is a list of floats for positioning chars / camera location on each scene.
+- SNR are binary archives containing scenario definition and text used by Rent-a-Hero No.1
+- `TEXT DATA`: chunk of game dialogues using [Text Format Struct](TEXT_Format.md).
+- `PARAMETER DATA`: List of floats for positioning chars / camera location on each scene.
+- `TEXT DATA POINTERS`: An array of pointers specifying dialogue offset in .SNR file. 
 
-*Please note (+ `0x40`) is a relative value to add in order to get actual offset!
+# .SNR has an header of `0x40` with the following data:
 
 |Address|Length (hex)|Description|
 |-------|------------|-----------|
@@ -16,8 +18,10 @@ SNR is the text format used by Rent-a-Hero No.1 for Dreamcast, `TEXT DATA` are t
 |0x1C|	04|	UNK|
 |0x20|	04|	UNK|
 |0x24|	04|	PARAMETER DATA / START OFFSET (+ 0x40`)|
-|0x28|	04|	TEXT_POINTERS / START OFFSET (+ `0x40`)|
+|0x28|	04|	TEXT DATA POINTERS / START OFFSET (+ `0x40`)|
 |0x2C|	04|	UNK|
 |0x30|	04|	UNK|
 |0x34|	04|	UNK|
 |0x38|	08|	HEADER END: `xFF/xFF/xFF/xFF/xFF/xFF/xFF/xFF` |
+
+*Please note (+ `0x40`) is a relative value to add in order to get actual offset!
