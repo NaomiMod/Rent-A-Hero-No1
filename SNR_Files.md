@@ -5,7 +5,9 @@
 - `PARAMETER DATA`: List of floats for positioning chars / camera location on each scene.
 - `TEXT DATA POINTERS`: An array of pointers specifying dialogue offset in .SNR file. 
 
-# .SNR has an header of `0x40` with the following data:
+# .SNR Header
+
+.SNR has an header of `0x40` with the following data:
 
 |Address|Length (hex)|Description|
 |-------|------------|-----------|
