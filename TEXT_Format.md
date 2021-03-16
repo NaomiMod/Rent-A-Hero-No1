@@ -21,12 +21,13 @@ Other than ASCII, certain values provide additional text formatting / game globa
 |0x0000|  SPACE (24px)|
 |0x0080|  End of sequence|
 
+*Used to display long text continuously.
+
 # Special Effects & Global Values
 
 |Value|Description|
 |-------|------------|
-|0x0097|  Effect: Shake Text Box|
-|0x0280|[CLEAR_SCREEN]|
+|0x0097|[SHAKE TEXT]|
 |0x0380|[TEXT_PAUSE]|
 |0x0082|[TEXT_WHITE]|
 |0x0182|[TEXT_GREEN]|
@@ -60,8 +61,6 @@ Other than ASCII, certain values provide additional text formatting / game globa
 |0x0FC0|[LINK_IS_THIS_OK?]|
 |0x19C0|[LINK_ENTER_THE_ALPHABET]|
 |0x1BC0|[LINK_IF_YOU_WANT_TO_ADD_NEW_LETTER]
-
-*Used to display long text continuously,.
 
 
 
