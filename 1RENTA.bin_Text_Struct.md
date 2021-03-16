@@ -5,7 +5,7 @@ Text stored in game executable is composed by `83 chunks` each one made by a `TE
 In order to call specific text, the game use one or multiple `TEXT DATA POINTERS` to specify the entry point of `TEXT DATA`within game executable. 
 
 
--`TEXT HEADER` is an array of `uint16` short values, each one specifying dialogue offset, starting from `TEXT DATA` multiplied by `0x2`.
+-`TEXT HEADER` is an array of `uint16` short values, representing each dialogue offset, starting from `TEXT DATA` multiplied by `0x2`.
 
 -`TEXT DATA` is a series of Text Format lines.
 
