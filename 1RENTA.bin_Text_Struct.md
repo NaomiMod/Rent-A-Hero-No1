@@ -15,172 +15,171 @@ In order to call specific text, the game use one or multiple `TEXT DATA POINTERS
 
 # CHUNK LIST:
 
-|CHUNK NUMBER|TEXT DATA OFFSET|TEXT POINTER OFFSET|
-|------------|-----------|------------|
-|CHUNK  0|0x8c083658|0x8c04bd94|
-|CHUNK  0|0x8c083666|0x8c04bd9c|
-|CHUNK  0|0x8c083674|0x8c04bda0|
-|CHUNK  1|0x8c0a717e|0x8c0161c0|
-|    -   |     -    |0x8c0164f8|
-|    -   |     -    |0x8c016768|
-|    -   |     -    |0x8c0172b8|
-|    -   |     -    |0x8c0175d8|
-|CHUNK  2|0x8c0aad08|0x8c022470|
-|    -   |     -    |0x8c0aad78|
-|CHUNK  2|0x8c0aad0c|0x8c0aada4|
-|    -   |     -    |0x8c0aadc8|
-|    -   |     -    |0x8c0aadec|
-|    -   |     -    |0x8c0aae40|
-|CHUNK  2|0x8c0aad12|0x8c0aada0|
-|    -   |     -    |0x8c0aadc4|
-|    -   |     -    |0x8c0aade8|
-|    -   |     -    |0x8c0aae08|
-|CHUNK  2|0x8c0aad18|0x8c0aad7c|
-|    -   |     -    |0x8c0aad54|
-|    -   |     -    |0x8c0aad9c|
-|    -   |     -    |0x8c0aadc0|
-|    -   |     -    |0x8c0aade4|
-|    -   |     -    |0x8c0aae04|
-|    -   |     -    |0x8c0aae3c|
-|    -   |     -    |0x8c0aae58|
-|CHUNK  2|0x8c0aad1e|0x8c0aad58|
-|    -   |     -    |0x8c0aad80|
-|    -   |     -    |0x8c0aae5c|
-|    -   |     -    |0x8c0aae20|
-|CHUNK  2|0x8c0aad24|0x8c0aad5c|
-|    -   |     -    |0x8c0aae24|
-|CHUNK  2|0x8c0aad2a|0x8c022440|
-|CHUNK  3|0x8c0d75da|0x8c049764|
-|    -   |     -    |0x8c0498b8|
-|    -   |     -    |0x8c04afc0|
-|    -   |     -    |0x8c050ea8|
-|    -   |     -    |0x8c05c0c0|
-|    -   |     -    |0x8c05e14c|
-|CHUNK  4|0x8c0d7d2c|0x8c04afb8|
-|    -   |     -    |0x8c050eb0|
-|    -   |     -    |0x8c05c0c8|
-|    -   |     -    |0x8c05c6d8|
-|CHUNK  5|0x8c0d968e|0x8c04f870|
-|    -   |     -    |0x8c05cbd4|
-|CHUNK  6|0x8c0db206|0x8c050f94|
-|CHUNK  7|0x8c0dbcce|0x8c0495f4|
-|    -   |     -    |0x8c05108c|
-|    -   |     -    |0x8c05118c|
-|    -   |     -    |0x8c05128c|
-|CHUNK  8|0x8c0dbf12|0x8c051094|
-|    -   |     -    |0x8c051194|
-|    -   |     -    |0x8c051294|
-|CHUNK  9|0x8c0dd2a8|0x8c048088|
-|CHUNK 10|0x8c0dd31a|0x8c04acec|
-|    -   |     -    |0x8c04b744|
-|    -   |     -    |0x8c04bb1c|
-|    -   |     -    |0x8c054438|
-|CHUNK 11|0x8c0dd3cc|0x8c04b4f8|
-|CHUNK 12|0x8c0dda0a|0x8c04de68|
-|    -   |     -    |0x8c04f0ec|
-|CHUNK 12|0x8c0ddb48|0x8c05b4dc|
-|    -   |     -    |0x8c05b6e4|
-|CHUNK 12|0x8c0ddb5e|0x8c046f28|
-|    -   |     -    |0x8c05442c|
-|CHUNK 12|0x8c0ddb74|0x8c055084|
-|    -   |     -    |0x8c055548|
-|CHUNK 12|0x8c0ddb78|0x8c05b4e8|
-|    -   |     -    |0x8c05b6ec|
-|CHUNK 12|0x8c0ddb80|0x8c05b4d4|
-|CHUNK 12|0x8c0ddb84|0x8c05bb28|
-|CHUNK 13|0x8c0ddbc2|0x8c04f248|
-|CHUNK 14|0x8c0dddbe|0x8c057950|
-|CHUNK 15|0x8c0de4ce|0x8c057948|
-|CHUNK 16|0x8c0e158e|0x8c0175e8|
-|    -   |     -    |0x8c058000|
-|CHUNK 17|0x8c0e421e|0x8c04f9b4|
-|CHUNK 18|0x8c0e4516|0x8c04f264|
-|    -   |     -    |0x8c04fd24|
-|CHUNK 19|0x8c0e45c2|0x8c04fd40|
-|CHUNK 20|0x8c0e46bc|0x8c04f50c|
-|    -   |     -    |0x8c05036c|
-|    -   |     -    |0x8c050450|
-|    -   |     -    |0x8c05380c|
-|CHUNK 21|0x8c0e4826|0x8c053810|
-|CHUNK 22|0x8c0e4d1a|0x8c0508fc|
-|    -   |     -    |0x8c050a94|
-|CHUNK 23|0x8c0e4d90|0x8c0508c8|
-|    -   |     -    |0x8c050a9c|
-|CHUNK 24|0x8c0e4e90|0x8c050904|
-|    -   |     -    |0x8c050bb8|
-|CHUNK 25|0x8c0e4efc|0x8c0508d0|
-|    -   |     -    |0x8c050bc0|
-|CHUNK 26|0x8c0e5006|0x8c05090c|
-|    -   |     -    |0x8c050bd0|
-|CHUNK 27|0x8c0e506c|0x8c0508d8|
-|    -   |     -    |0x8c050bd8|
-|CHUNK 28|0x8c0e5184|0x8c050914|
-|    -   |     -    |0x8c050ce0|
-|CHUNK 29|0x8c0e51f4|0x8c0508e0|
-|    -   |     -    |0x8c050cf0|
-|CHUNK 30|0x8c0e5450|0x8c0513cc|
-|CHUNK 31|0x8c0e7a7e|0x8c050db8|
-|CHUNK 32|0x8c0e9a42|0x8c0525a0|
-|CHUNK 33|0x8c0ea00e|0x8c0526e4|
-|CHUNK 34|0x8c0ea044|0x8c053554|
-|CHUNK 35|0x8c0ea230|0x8c0537f4|
-|CHUNK 36|0x8c0ea790|0x8c0540c4|
-|CHUNK 37|0x8c0eaecc|0x8c055a1c|
-|    -   |     -    |0x8c056940|
-|CHUNK 38|0x8c0ebf1e|0x8c055a08|
-|CHUNK 39|0x8c0ec1ec|0x8c057090|
-|CHUNK 39|0x8c0ec228|0x8c05709c|
-|CHUNK 40|0x8c0ec276|0x8c057968|
-|CHUNK 41|0x8c0ec386|0x8c0581b8|
-|CHUNK 42|0x8c0ec856|0x8c04f25c|
-|    -   |     -    |0x8c058794|
-|CHUNK 43|0x8c0ec9aa|0x8c058e44|
-|    -   |     -    |0x8c059700|
-|    -   |     -    |0x8c059a30|
-|    -   |     -    |0x8c059b3c|
-|CHUNK 44|0x8c0ecfa0|0x8c0594cc|
-|    -   |     -    |0x8c0598d4|
-|    -   |     -    |0x8c059a00|
-|CHUNK 45|0x8c0ed2c0|0x8c05a790|
-|    -   |     -    |0x8c05bb18|
-|CHUNK 46|0x8c0ed59e|0x8c05a760|
-|CHUNK 47|0x8c0ed5fe|0x8c05c0e0|
-|    -   |     -    |0x8c05c688|
-|CHUNK 48|0x8c0ed760|0x8c05cdac|
-|CHUNK 49|0x8c0ed7c0|0x8c05d410|
-|CHUNK 50|0x8c0f139e|0x8c06ab84|
-|CHUNK 51|0x8c13fd96|0x8c14317c|
-|    -   |     -    |0x8c1432f0|
-|CHUNK 52|0x8c13feb0|0x8c143188|
-|CHUNK 53|0x8c1400cc|0x8c143194|
-|CHUNK 54|0x8c140276|0x8c1431a0|
-|CHUNK 55|0x8c140426|0x8c1431ac|
-|CHUNK 56|0x8c1405e0|0x8c1431b8|
-|CHUNK 57|0x8c1406be|0x8c1431c4|
-|CHUNK 58|0x8c14076a|0x8c1431d0|
-|CHUNK 59|0x8c14081e|0x8c1431dc|
-|CHUNK 60|0x8c140b1e|0x8c1431e8|
-|CHUNK 61|0x8c141222|0x8c1431f4|
-|CHUNK 62|0x8c14132c|0x8c143200|
-|CHUNK 63|0x8c141492|0x8c14320c|
-|CHUNK 64|0x8c141602|0x8c143218|
-|CHUNK 65|0x8c14175a|0x8c143224|
-|CHUNK 66|0x8c1419ee|0x8c143230|
-|CHUNK 67|0x8c141c50|0x8c14323c|
-|CHUNK 68|0x8c1420a0|0x8c143248|
-|CHUNK 69|0x8c1421c2|0x8c143254|
-|CHUNK 70|0x8c1422b0|0x8c143260|
-|CHUNK 71|0x8c142444|0x8c14326c|
-|CHUNK 72|0x8c1426aa|0x8c1432b4|
-|CHUNK 73|0x8c1428d4|0x8c1432c0|
-|CHUNK 74|0x8c1429f6|0x8c1432cc|
-|CHUNK 75|0x8c142b1a|0x8c1432d8|
-|CHUNK 76|0x8c142c5a|0x8c143278|
-|CHUNK 77|0x8c142cae|0x8c143284|
-|CHUNK 78|0x8c142d0a|0x8c143290|
-|CHUNK 79|0x8c142d60|0x8c14329c|
-|CHUNK 80|0x8c142db6|0x8c1432a8|
-|CHUNK 81|0x8c142e24|0x8c1432e4|
-|CHUNK 82|0x8c15d7c0|0x8c07aca8|
-|CHUNK 83|0x8c15d91e|0x8c07ade0|
-
+|CHUNK NUMBER|TEXT HEADER OFFSET|TEXT HEADER SIZE|TEXT DATA OFFSET|TEXT DATA POINTER|
+|------------|-----------|------------|------------|------------|
+|CHUNK  0|0x00073650|0x0008|0x00073658|0x0003bd94|   
+|CHUNK  0|    -     |   -  |0x00073666|0x0003bd9c|
+|CHUNK  0|    -     |   -  |0x00073674|0x0003bda0|
+|CHUNK  1|0x00097114|0x006a|0x0009717e|0x000061c0|   
+|    -   |    -     |   -  |          |0x000064f8|
+|    -   |    -     |   -  |          |0x00006768|
+|    -   |    -     |   -  |          |0x000072b8|
+|    -   |    -     |   -  |          |0x000075d8|
+|CHUNK  2|0x0009acf8|0x0010|0x0009ad08|0x00012470|   
+|    -   |    -     |   -  |          |0x0009ad78|
+|CHUNK  2|    -     |   -  |0x0009ad0c|0x0009ada4|
+|    -   |    -     |   -  |          |0x0009adc8|
+|    -   |    -     |   -  |          |0x0009adec|
+|    -   |    -     |   -  |          |0x0009ae40|
+|CHUNK  2|    -     |   -  |0x0009ad12|0x0009ada0|
+|    -   |    -     |   -  |          |0x0009adc4|
+|    -   |    -     |   -  |          |0x0009ade8|
+|    -   |    -     |   -  |          |0x0009ae08|
+|CHUNK  2|    -     |   -  |0x0009ad18|0x0009ad7c|
+|    -   |    -     |   -  |          |0x0009ad54|
+|    -   |    -     |   -  |          |0x0009ad9c|
+|    -   |    -     |   -  |          |0x0009adc0|
+|    -   |    -     |   -  |          |0x0009ade4|
+|    -   |    -     |   -  |          |0x0009ae04|
+|    -   |    -     |   -  |          |0x0009ae3c|
+|    -   |    -     |   -  |          |0x0009ae58|
+|CHUNK  2|    -     |   -  |0x0009ad1e|0x0009ad58|
+|    -   |    -     |   -  |          |0x0009ad80|
+|    -   |    -     |   -  |          |0x0009ae5c|
+|    -   |    -     |   -  |          |0x0009ae20|
+|CHUNK  2|    -     |   -  |0x0009ad24|0x0009ad5c|
+|    -   |    -     |   -  |          |0x0009ae24|
+|CHUNK  2|    -     |   -  |0x0009ad2a|0x00012440|
+|CHUNK  3|0x000c7518|0x00c2|0x000c75da|0x00039764|   
+|    -   |    -     |   -  |          |0x000398b8|
+|    -   |    -     |   -  |          |0x0003afc0|
+|    -   |    -     |   -  |          |0x00040ea8|
+|    -   |    -     |   -  |          |0x0004c0c0|
+|    -   |    -     |   -  |          |0x0004e14c|
+|CHUNK  4|0x000c7c6a|0x00c2|0x000c7d2c|0x0003afb8|   
+|    -   |    -     |   -  |          |0x00040eb0|
+|    -   |    -     |   -  |          |0x0004c0c8|
+|    -   |    -     |   -  |          |0x0004c6d8|
+|CHUNK  5|0x000c95cc|0x00c2|0x000c968e|0x0003f870|   
+|    -   |    -     |   -  |          |0x0004cbd4|
+|CHUNK  6|0x000cb1d0|0x0036|0x000cb206|0x00040f94|   
+|CHUNK  7|0x000cbc8a|0x0044|0x000cbcce|0x000395f4|   
+|    -   |    -     |   -  |          |0x0004108c|
+|    -   |    -     |   -  |          |0x0004118c|
+|    -   |    -     |   -  |          |0x0004128c|
+|CHUNK  8|0x000cbece|0x0044|0x000cbf12|0x00041094|   
+|    -   |    -     |   -  |          |0x00041194|
+|    -   |    -     |   -  |          |0x00041294|
+|CHUNK  9|0x000cd2a4|0x0004|0x000cd2a8|0x00038088|   
+|CHUNK 10|0x000cd30c|0x000e|0x000cd31a|0x0003acec|   
+|    -   |    -     |   -  |          |0x0003b744|
+|    -   |    -     |   -  |          |0x0003bb1c|
+|    -   |    -     |   -  |          |0x00044438|
+|CHUNK 11|0x000cd35a|0x0072|0x000cd3cc|0x0003b4f8|   
+|CHUNK 12|0x000cd9ea|0x0020|0x000cda0a|0x0003de68|   
+|    -   |    -     |   -  |          |0x0003f0ec|
+|CHUNK 12|    -     |   -  |0x000cdb48|0x0004b4dc|
+|    -   |    -     |   -  |          |0x0004b6e4|
+|CHUNK 12|    -     |   -  |0x000cdb5e|0x00036f28|
+|    -   |    -     |   -  |          |0x0004442c|
+|CHUNK 12|    -     |   -  |0x000cdb74|0x00045084|
+|    -   |    -     |   -  |          |0x00045548|
+|CHUNK 12|    -     |   -  |0x000cdb78|0x0004b4e8|
+|    -   |    -     |   -  |          |0x0004b6ec|
+|CHUNK 12|    -     |   -  |0x000cdb80|0x0004b4d4|
+|CHUNK 12|    -     |   -  |0x000cdb84|0x0004bb28|
+|CHUNK 13|0x000cdb8e|0x0034|0x000cdbc2|0x0003f248|   
+|CHUNK 14|0x000cdd08|0x00b6|0x000cddbe|0x00047950|   
+|CHUNK 15|0x000ce418|0x00b6|0x000ce4ce|0x00047948|   
+|CHUNK 16|0x000d14d8|0x00b6|0x000d158e|0x000075e8|   
+|    -   |    -     |   -  |          |0x00048000|
+|CHUNK 17|0x000d41d4|0x004a|0x000d421e|0x0003f9b4|   
+|CHUNK 18|0x000d4508|0x000e|0x000d4516|0x0003f264|   
+|    -   |    -     |   -  |          |0x0003fd24|
+|CHUNK 19|0x000d45aa|0x0018|0x000d45c2|0x0003fd40|   
+|CHUNK 20|0x000d469a|0x0022|0x000d46bc|0x0003f50c|   
+|    -   |    -     |   -  |          |0x0004036c|
+|    -   |    -     |   -  |          |0x00040450|
+|    -   |    -     |   -  |          |0x0004380c|
+|CHUNK 21|0x000d4804|0x0022|0x000d4826|0x00043810|  
+|CHUNK 22|0x000d4d10|0x000a|0x000d4d1a|0x000408fc|  
+|    -   |    -     |   -  |          |0x00040a94|
+|CHUNK 23|0x000d4d86|0x000a|0x000d4d90|0x000408c8|  
+|    -   |    -     |   -  |          |0x00040a9c|
+|CHUNK 24|0x000d4e86|0x000a|0x000d4e90|0x00040904|  
+|    -   |    -     |   -  |          |0x00040bb8|
+|CHUNK 25|0x000d4ef2|0x000a|0x000d4efc|0x000408d0|  
+|    -   |    -     |   -  |          |0x00040bc0|
+|CHUNK 26|0x000d4ffc|0x000a|0x000d5006|0x0004090c|  
+|    -   |    -     |   -  |          |0x00040bd0|
+|CHUNK 27|0x000d5062|0x000a|0x000d506c|0x000408d8|  
+|    -   |    -     |   -  |          |0x00040bd8|
+|CHUNK 28|0x000d517a|0x000a|0x000d5184|0x00040914|  
+|    -   |    -     |   -  |          |0x00040ce0|
+|CHUNK 29|0x000d51ea|0x000a|0x000d51f4|0x000408e0|  
+|    -   |    -     |   -  |          |0x00040cf0|
+|CHUNK 30|0x000d5320|0x0130|0x000d5450|0x000413cc|  
+|CHUNK 31|0x000d78da|0x01a4|0x000d7a7e|0x00040db8|  
+|CHUNK 32|0x000d9a08|0x003a|0x000d9a42|0x000425a0|  
+|CHUNK 33|0x000da006|0x0008|0x000da00e|0x000426e4|  
+|CHUNK 34|0x000da03a|0x000a|0x000da044|0x00043554|  
+|CHUNK 35|0x000da212|0x001e|0x000da230|0x000437f4|  
+|CHUNK 36|0x000da77c|0x0014|0x000da790|0x000440c4|  
+|CHUNK 37|0x000dae60|0x006c|0x000daecc|0x00045a1c|  
+|    -   |    -     |   -  |          |0x00046940|
+|CHUNK 38|0x000dbefc|0x0022|0x000dbf1e|0x00045a08|  
+|CHUNK 39|    -     |   -  |0x000dc1ec|0x00047090|
+|CHUNK 39|0x000dc1e2|0x000a|0x000dc228|0x0004709c|  
+|CHUNK 40|0x000dc266|0x0010|0x000dc276|0x00047968|  
+|CHUNK 41|0x000dc362|0x0024|0x000dc386|0x000481b8|  
+|CHUNK 42|0x000dc848|0x000e|0x000dc856|0x0003f25c|  
+|    -   |    -     |   -  |          |0x00048794|
+|CHUNK 43|0x000dc97c|0x002e|0x000dc9aa|0x00048e44|  
+|    -   |    -     |   -  |          |0x00049700|
+|    -   |    -     |   -  |          |0x00049a30|
+|    -   |    -     |   -  |          |0x00049b3c|
+|CHUNK 44|0x000dcf86|0x001a|0x000dcfa0|0x000494cc|  
+|    -   |    -     |   -  |          |0x000498d4|
+|    -   |    -     |   -  |          |0x00049a00|
+|CHUNK 45|0x000dd298|0x0028|0x000dd2c0|0x0004a790|  
+|    -   |    -     |   -  |          |0x0004bb18|
+|CHUNK 46|0x000dd592|0x000c|0x000dd59e|0x0004a760|  
+|CHUNK 47|0x000dd5e6|0x0018|0x000dd5fe|0x0004c0e0|  
+|    -   |    -     |   -  |          |0x0004c688|
+|CHUNK 48|0x000dd754|0x000c|0x000dd760|0x0004cdac|  
+|CHUNK 49|0x000dd7b6|0x000a|0x000dd7c0|0x0004d410|  
+|CHUNK 50|0x000e1378|0x0006|0x000e139e|0x0005ab84|  
+|CHUNK 51|0x0012fd94|0x0002|0x0012fd96|0x0013317c|  
+|    -   |    -     |   -  |          |0x001332f0|
+|CHUNK 52|0x0012fea8|0x0008|0x0012feb0|0x00133188|  
+|CHUNK 53|0x001300c4|0x0008|0x001300cc|0x00133194|  
+|CHUNK 54|0x0013026e|0x0008|0x00130276|0x001331a0|  
+|CHUNK 55|0x00130422|0x0004|0x00130426|0x001331ac|  
+|CHUNK 56|0x001305dc|0x0004|0x001305e0|0x001331b8|  
+|CHUNK 57|0x001306ba|0x0004|0x001306be|0x001331c4|  
+|CHUNK 58|0x00130766|0x0004|0x0013076a|0x001331d0|  
+|CHUNK 59|0x00130810|0x000e|0x0013081e|0x001331dc|  
+|CHUNK 60|0x00130b08|0x0016|0x00130b1e|0x001331e8|  
+|CHUNK 61|0x0013121c|0x0006|0x00131222|0x001331f4|  
+|CHUNK 62|0x00131326|0x0006|0x0013132c|0x00133200|  
+|CHUNK 63|0x0013148c|0x0006|0x00131492|0x0013320c|  
+|CHUNK 64|0x001315fc|0x0006|0x00131602|0x00133218|  
+|CHUNK 65|0x0013174e|0x000c|0x0013175a|0x00133224|  
+|CHUNK 66|0x001319e4|0x000a|0x001319ee|0x00133230|  
+|CHUNK 67|0x00131c42|0x000e|0x00131c50|0x0013323c|  
+|CHUNK 68|0x0013209e|0x0002|0x001320a0|0x00133248|  
+|CHUNK 69|0x001321be|0x0004|0x001321c2|0x00133254|  
+|CHUNK 70|0x001322aa|0x0006|0x001322b0|0x00133260|  
+|CHUNK 71|0x00132442|0x0002|0x00132444|0x0013326c|  
+|CHUNK 72|0x001326a6|0x0004|0x001326aa|0x001332b4|  
+|CHUNK 73|0x001328ce|0x0006|0x001328d4|0x001332c0|  
+|CHUNK 74|0x001329f0|0x0006|0x001329f6|0x001332cc|  
+|CHUNK 75|0x00132b16|0x0004|0x00132b1a|0x001332d8|  
+|CHUNK 76|0x00132c58|0x0002|0x00132c5a|0x00133278|  
+|CHUNK 77|0x00132cac|0x0002|0x00132cae|0x00133284|  
+|CHUNK 78|0x00132d08|0x0002|0x00132d0a|0x00133290|  
+|CHUNK 79|0x00132d5e|0x0002|0x00132d60|0x0013329c|  
+|CHUNK 80|0x00132db4|0x0002|0x00132db6|0x001332a8|  
+|CHUNK 81|0x00132e08|0x001c|0x00132e24|0x001332e4|  
+|CHUNK 82|0x0014d7bc|0x0004|0x0014d7c0|0x0006aca8|  
+|CHUNK 83|0x0014d80e|0x0110|0x0014d91e|0x0006ade0|  
