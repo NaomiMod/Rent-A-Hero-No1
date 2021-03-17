@@ -5,11 +5,11 @@ Text stored in game executable is composed by `83 chunks` each one made by a `TE
 In order to call specific text, the game use one or multiple `TEXT DATA POINTERS` to specify the entry point of `TEXT DATA`within game executable. 
 
 
--`TEXT HEADER` : An array of `uint16` short values, representing each dialogue offset, starting from `TEXT DATA` multiplied by `0x2`.
+- `TEXT HEADER` : An array of `uint16` short values, representing each dialogue offset, starting from `TEXT DATA` multiplied by `0x2`.
 
--`TEXT DATA` : Game text using Rent a Hero [Format Struct](TEXT_Format.md).
+- `TEXT DATA` : Game text using Rent a Hero [Format Struct](TEXT_Format.md).
 
--`TEXT DATA POINTER OFFSET`: Data pointer specifying where to read `TEXT DATA`.
+- `TEXT DATA POINTER OFFSET`: Data pointer specifying where to read `TEXT DATA`.
 
  
 
