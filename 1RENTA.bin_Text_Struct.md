@@ -21,7 +21,7 @@ In order to call specific text, the game use one or multiple `TEXT DATA POINTERS
 |CHUNK  0|0x00073650|0x0008|0x00073658|0x0003bd94|!Special Pointer! Calls Text 1|   
 |CHUNK  0|0x00073650|0x0008|0x00073666|0x0003bd9c|!Special Pointer! Calls Text 2|
 |CHUNK  0|0x00073650|0x0008|0x00073674|0x0003bda0|!Special Pointer! Calls Text 3|
-|--------|----------|------|----------|----------|-|
+|----------|
 |CHUNK  1|0x00097114|0x006a|0x0009717e|0x000061c0|1-53|   
 |CHUNK  1|=|=|=|0x000064f8|  |
 |CHUNK  1|=|=|=|0x00006768|  |
