@@ -9,11 +9,12 @@ In order to call specific text, the game use one or multiple `TEXT DATA POINTERS
 
 -`TEXT DATA` : Game text using Rent a Hero [Format Struct](TEXT_Format.md).
 
--`TEXT POINTER OFFSET`: Data pointer specifying where to read `TEXT DATA`.
+-`TEXT DATA POINTER OFFSET`: Data pointer specifying where to read `TEXT DATA`.
+
+ 
 
 
-
-# CHUNK LIST:
+# CHUNK INFO:
 
 |CHUNK NUMBER|TEXT HEADER OFFSET|TEXT HEADER SIZE|TEXT DATA OFFSET|TEXT DATA POINTER|
 |------------|-----------|------------|------------|------------|
