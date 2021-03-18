@@ -18,10 +18,6 @@ In order to call specific text, the game use one or multiple `TEXT DATA POINTERS
 
 |CHUNK NUMBER|TEXT HEADER OFFSET|TEXT HEADER SIZE|TEXT DATA OFFSET|TEXT DATA POINTER|REMARK|
 |--------|-----------|----------|----------|----------|----------|
-|CHUNK  0|0x00073650|0x0008|0x00073658|0x0003bd94|!Special Pointer! Text 1|   
-|CHUNK  0|0x00073650|0x0008|0x00073666|0x0003bd9c|!Special Pointer! Text 2|
-|CHUNK  0|0x00073650|0x0008|0x00073674|0x0003bda0|!Special Pointer! Text 3|
-|--------|-----------|----------|----------|----------|----------|
 |CHUNK  1|0x00097114|0x006a|0x0009717e|0x000061c0| |   
 |CHUNK  1|=|=|=|0x000064f8|  |
 |CHUNK  1|=|=|=|0x00006768|  |
@@ -89,18 +85,8 @@ In order to call specific text, the game use one or multiple `TEXT DATA POINTERS
 |--------|-----------|----------|----------|----------|----------|
 |CHUNK 11|0x000cd35a|0x0072|0x000cd3cc|0x0003b4f8| |   
 |--------|-----------|----------|----------|----------|----------|
-|CHUNK 12|0x000cd9ea|0x0020|0x000cda0a|0x0003de68|Pointer to Text 1|   
-|CHUNK 12|0x000cd9ea|0x0020|0x000cda0a|0x0003f0ec|Pointer to Text 1|
-|CHUNK 12|0x000cd9ea|0x0020|0x000cdb48|0x0004b4dc|?|
-|CHUNK 12|0x000cd9ea|0x0020|0x000cdb48|0x0004b6e4|?|
-|CHUNK 12|0x000cd9ea|0x0020|0x000cdb5e|0x00036f28|?|
-|CHUNK 12|0x000cd9ea|0x0020|0x000cdb5e|0x0004442c|?|
-|CHUNK 12|0x000cd9ea|0x0020|0x000cdb74|0x00045084|?|
-|CHUNK 12|0x000cd9ea|0x0020|0x000cdb74|0x00045548|?|
-|CHUNK 12|0x000cd9ea|0x0020|0x000cdb78|0x0004b4e8|?|
-|CHUNK 12|0x000cd9ea|0x0020|0x000cdb78|0x0004b6ec|?|
-|CHUNK 12|0x000cd9ea|0x0020|0x000cdb80|0x0004b4d4|?|
-|CHUNK 12|0x000cd9ea|0x0020|0x000cdb84|0x0004bb28|?|
+|CHUNK 12|0x000cd9ea|0x0020|0x000cda0a|0x0003de68| |   
+|CHUNK 12|=|=|=|0x0003f0ec| |
 |--------|-----------|----------|----------|----------|----------|
 |CHUNK 13|0x000cdb8e|0x0034|0x000cdbc2|0x0003f248| | 
 |--------|-----------|----------|----------|----------|----------|
@@ -168,8 +154,7 @@ In order to call specific text, the game use one or multiple `TEXT DATA POINTERS
 |--------|-----------|----------|----------|----------|----------|
 |CHUNK 38|0x000dbefc|0x0022|0x000dbf1e|0x00045a08| |  
 |--------|-----------|----------|----------|----------|----------|
-|CHUNK 39|0x000dbefc|0x0022|0x000dc1ec|0x00047090|Pointer to Text 1|
-|CHUNK 39|0x000dc1e2|0x000a|0x000dc228|0x0004709c|?|
+|CHUNK 39|0x000dc1e2|0x000a|0x000dc1ec|0x00047090| |
 |--------|-----------|----------|----------|----------|----------|
 |CHUNK 40|0x000dc266|0x0010|0x000dc276|0x00047968| |  
 |--------|-----------|----------|----------|----------|----------|
@@ -267,3 +252,18 @@ In order to call specific text, the game use one or multiple `TEXT DATA POINTERS
 |CHUNK 82|0x0014d7bc|0x0004|0x0014d7c0|0x0006aca8| |  
 |--------|-----------|----------|----------|----------|----------|
 |CHUNK 83|0x0014d80e|0x0110|0x0014d91e|0x0006ade0| |  
+|--------|-----------|----------|----------|----------|----------|
+|CHUNK 84|NO|NO|0x000cdb48|0x0004b4dc|SINGLE TEXT|
+|CHUNK 84|NO|NO|=|0x0004b6e4|SINGLE TEXT|
+|CHUNK 85|NO|NO|0x000cdb5e|0x00036f28|SINGLE TEXT|
+|CHUNK 85|NO|NO|=|0x0004442c|SINGLE TEXT|
+|CHUNK 86|NO|NO|0x000cdb74|0x00045084|SINGLE TEXT|
+|CHUNK 86|NO|NO|=|0x00045548|SINGLE TEXT|
+|CHUNK 87|NO|NO|0x000cdb78|0x0004b4e8|SINGLE TEXT|
+|CHUNK 87|NO|NO|=|0x0004b6ec|SINGLE TEXT|
+|CHUNK 88|NO|NO|0x000cdb80|0x0004b4d4|SINGLE TEXT|
+|CHUNK 89|NO|NO|0x000cdb84|0x0004bb28|SINGLE TEXT|
+|CHUNK 90|NO|NO|0x000dc228|0x0004709c|SINGLE TEXT|
+|CHUNK 91|NO|NO|0x00073658|0x0003bd94|SINGLE TEXT|   
+|CHUNK 92|NO|NO|0x00073666|0x0003bd9c|SINGLE TEXT|
+|CHUNK 93|NO|NO|0x00073674|0x0003bda0|SINGLE TEXT|
