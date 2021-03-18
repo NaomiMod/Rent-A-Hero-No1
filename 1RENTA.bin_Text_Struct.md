@@ -1,6 +1,6 @@
 # 1RENTA.bin TEXT STRUCT
 
-Text stored in game executable is composed by `83 chunks` each one made by a `TEXT HEADER` and `TEXT DATA` part.
+Text stored in game executable is composed by `93 chunks` each one made by a `TEXT HEADER` and `TEXT DATA` part.
 
 In order to call specific text, the game use one or multiple `TEXT DATA POINTERS` to specify the entry point of `TEXT DATA`within game executable. 
 
