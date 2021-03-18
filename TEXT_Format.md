@@ -1,6 +1,6 @@
 #  Text format struct
 
-- Every char is mapped by a `uint16` short value, corresponding to a ASCII JIS character used by game font using VFW in 2 types: `12x24px` / `24x24px`.
+- Every char is mapped by a `uint16` short value, corresponding to a ASCII JIS character used by game font using VWF in 2 types: `12x24px` / `24x24px`.
 A regular western char has a width of `12 pixels` whilst most japanese chars `24 pixels`.
 
 - Regular text box holds a maximum of `3 text rows`.
