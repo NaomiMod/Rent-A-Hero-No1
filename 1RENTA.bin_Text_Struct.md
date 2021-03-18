@@ -7,7 +7,7 @@ In order to call specific text, the game use one or multiple `TEXT DATA POINTERS
 
 - `TEXT HEADER` : An array of `uint16` short values, representing each dialogue offset, starting from `TEXT DATA` multiplied by `0x2`.
 
-- `TEXT DATA` : Game text using Rent a Hero [Format Struct](TEXT_Format.md).
+- `TEXT DATA` : Game text using Rent a Hero [Text Format Struct](TEXT_Format.md).
 
 - `TEXT DATA POINTER OFFSET`: Data pointer specifying where to read `TEXT DATA`.
 
