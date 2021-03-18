@@ -253,26 +253,26 @@ In order to call specific text, the game use one or multiple `TEXT DATA POINTERS
 |--------|-----------|----------|----------|----------|----------|----------|
 |CHUNK 83|0x0014d80e|0x0110|0x0014d91e|0x0006ade0|0x1ca2| |  
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 84|NO|NO|0x000cdb48|0x0004b4dc|NO|SINGLE TEXT|
+|CHUNK 84|NO|NO|0x000cdb48|0x0004b4dc|0x0016|SINGLE TEXT|
 |CHUNK 84|NO|NO|=|0x0004b6e4|NO|SINGLE TEXT|
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 85|NO|NO|0x000cdb5e|0x00036f28|NO|SINGLE TEXT|
+|CHUNK 85|NO|NO|0x000cdb5e|0x00036f28|0x0016|SINGLE TEXT|
 |CHUNK 85|NO|NO|=|0x0004442c|NO|SINGLE TEXT|
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 86|NO|NO|0x000cdb74|0x00045084|NO|SINGLE TEXT|
+|CHUNK 86|NO|NO|0x000cdb74|0x00045084|0x0004|SINGLE TEXT|
 |CHUNK 86|NO|NO|=|0x00045548|NO|SINGLE TEXT|
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 87|NO|NO|0x000cdb78|0x0004b4e8| |SINGLE TEXT|
+|CHUNK 87|NO|NO|0x000cdb78|0x0004b4e8|0x0006|SINGLE TEXT|
 |CHUNK 87|NO|NO|=|0x0004b6ec|NO|SINGLE TEXT|
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 88|NO|NO|0x000cdb80|0x0004b4d4|NO|SINGLE TEXT|
+|CHUNK 88|NO|NO|0x000cdb80|0x0004b4d4|0x0004|SINGLE TEXT|
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 89|NO|NO|0x000cdb84|0x0004bb28|NO|SINGLE TEXT|
+|CHUNK 89|NO|NO|0x000cdb84|0x0004bb28|0x000a|SINGLE TEXT|
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 90|NO|NO|0x000dc228|0x0004709c|NO|SINGLE TEXT|
+|CHUNK 90|NO|NO|0x000dc228|0x0004709c|0x002a|SINGLE TEXT|
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 91|NO|NO|0x00073658|0x0003bd94|NO|SINGLE TEXT| 
+|CHUNK 91|NO|NO|0x00073658|0x0003bd94|0x0008|SINGLE TEXT| 
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 92|NO|NO|0x00073666|0x0003bd9c|NO|SINGLE TEXT|
+|CHUNK 92|NO|NO|0x00073666|0x0003bd9c|0x0008|SINGLE TEXT|
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 93|NO|NO|0x00073674|0x0003bda0|NO|SINGLE TEXT|
+|CHUNK 93|NO|NO|0x00073674|0x0003bda0|0x000e|SINGLE TEXT|
