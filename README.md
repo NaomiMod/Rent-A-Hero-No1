@@ -1,4 +1,4 @@
-# Rent-A-Hero-No1  -  DREAMCAST
+# Rent-A-Hero-No1
 
 This repo is a collection of documents regarding Rent-A-Hero No.1 text format.
 
