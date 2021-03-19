@@ -285,11 +285,11 @@ In order to call specific text, the game use one or multiple `TEXT DATA POINTERS
 |--------|-----------|----------|----------|----------|----------|----------|  
 |CHUNK 94|0x00cb742|0x036|0x00cb778|NO|0x402|NO CALLS / UNUSED ?|
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 95|0x00cc9fc|0x044|0x00cca40|NO	0x50C	NO CALLS / UNUSED ?|
+|CHUNK 95|0x00cc9fc|0x044|0x00cca40|NO	0x50C|NO CALLS / UNUSED ?|
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 96|0x00d0b0c|0x0b9|0x00d0bc2|NO	0x916	NO CALLS / UNUSED ?|
+|CHUNK 96|0x00d0b0c|0x0b9|0x00d0bc2|NO	0x916|NO CALLS / UNUSED ?|
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 97|0x013249c|0xc|0x01324a8|NO|0x1fe	NO CALLS / UNUSED ?|
+|CHUNK 97|0x013249c|0xc|0x01324a8|NO|0x1fe|NO CALLS / UNUSED ?|
 |--------|-----------|----------|----------|----------|----------|----------|
 |CHUNK 98|0x0132800|0x2|0x0132802|NO|0xcc|NO CALLS / UNUSED ?|
 
