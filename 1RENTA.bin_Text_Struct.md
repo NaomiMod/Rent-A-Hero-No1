@@ -281,8 +281,8 @@ In order to call specific text, the game use one or multiple `TEXT DATA POINTERS
 |CHUNK 93|NO|NO|0x00073674|0x0003bda0|0x000e|SINGLE TEXT|
 
 # UNUSED / LEFTOVER
-
-|--------|-----------|----------|----------|----------|----------|----------|
+|CHUNK NUMBER|TEXT HEADER OFFSET|TEXT HEADER SIZE|TEXT DATA OFFSET|TEXT DATA POINTER|TEXT DATA SIZE|REMARK|
+|--------|-----------|----------|----------|----------|----------|----------|  
 |CHUNK 94|0x00cb742|0x036|0x00cb778|NO|0x402|NO CALLS / UNUSED ?|
 |--------|-----------|----------|----------|----------|----------|----------|
 |CHUNK 95|0x00cc9fc|0x044|0x00cca40|NO	0x50C	NO CALLS / UNUSED ?|
