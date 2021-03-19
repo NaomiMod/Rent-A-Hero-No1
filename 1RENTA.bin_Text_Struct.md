@@ -1,6 +1,6 @@
 # 1RENTA.bin TEXT STRUCT
 
-Text stored in game executable is composed by `93 chunks` each one made by a `TEXT HEADER` and `TEXT DATA` part.
+Text stored in game executable is composed by `94 chunks` each one made by a `TEXT HEADER` and `TEXT DATA` part.
 
 In order to call specific text, the game use one or multiple `TEXT DATA POINTERS` to specify the entry point of `TEXT DATA`within game executable. 
 
@@ -17,7 +17,10 @@ In order to call specific text, the game use one or multiple `TEXT DATA POINTERS
 # CHUNK INFO:
 
 |CHUNK NUMBER|TEXT HEADER OFFSET|TEXT HEADER SIZE|TEXT DATA OFFSET|TEXT DATA POINTER|TEXT DATA SIZE|REMARK|
-|--------|-----------|----------|----------|----------|----------|----------|      
+|--------|-----------|----------|----------|----------|----------|----------|  
+|CHUNK  0|0x00caf62|0x0036|0x0caf98|0x00398ac|0x0238| |   
+|CHUNK  0|=|=|=|0x0040f8c|=|  |
+|--------|-----------|----------|----------|----------|----------|----------|
 |CHUNK  1|0x00097114|0x006a|0x0009717e|0x000061c0|0x06fc| |   
 |CHUNK  1|=|=|=|0x000064f8|=|  |
 |CHUNK  1|=|=|=|0x00006768|=|  |
