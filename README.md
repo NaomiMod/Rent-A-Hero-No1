@@ -8,6 +8,8 @@ This repo is a collection of documents regarding Rent-A-Hero No.1 format.
 
 - [Scenario .SNR Struct](SNR_Files.md)
 
+- [MAIL .RHS Struct](RHS_Files.md)
+
 
 
 Feel free to add/modify these with new infos, just give due credit if used for own personal mods.
