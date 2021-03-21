@@ -1,8 +1,13 @@
 # Mail .RHS Files Struct - WIP
 
-These archives concatenate multiple chunks, each chunk could be simplified as follows:
+RHS archives concatenate multiple text chunks divided by `\x00\x00`. Each chunk structure could be simplified as follows:
 
-`TEXT TOTAL LINES` --> `TEXT DATA SIZE` --> `TEXT HEADER LIST` --> `TEXT DATA` --> `\0x00\0x00` (END OF CHUNK)
+`TEXT TOTAL LINES` --> `TEXT DATA SIZE` --> `TEXT HEADER LIST` --> `TEXT DATA` --> `END OF CHUNK (\x00\x00)
+
+- `TOTAL LINES` Total number of text lines in `TEXT DATA` chunk
+- `TEXT DATA SIZE` Total size of TEXT DATA / size multiplied by `0x2`.
+- `TEXT DATA` : Game text using Rent a Hero [Text Format Struct](TEXT_Format.md).
+- `TEXT HEADER LIST` : An array of `uint16` short values, representing each dialogue offset, starting from `TEXT DATA` multiplied by `0x2`.
 
 
 # Chunk Struct:
@@ -17,10 +22,6 @@ These archives concatenate multiple chunks, each chunk could be simplified as fo
 
 
 
-- `TOTAL-LINES` : Total number of text lines in `TEXT DATA` chunk
-- `TEXT DATA SIZE` Total size of TEXT DATA / siz multiplied by `0x2`.
-- `TEXT DATA` : Game text using Rent a Hero [Text Format Struct](TEXT_Format.md).
-- `TEXT HEADER LIST` : An array of `uint16` short values, representing each dialogue offset, starting from `TEXT DATA` multiplied by `0x2`.
 
 
 
