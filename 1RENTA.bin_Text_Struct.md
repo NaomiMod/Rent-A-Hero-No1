@@ -256,40 +256,46 @@ In order to call specific text, the game use one or multiple `TEXT DATA POINTERS
 |--------|-----------|----------|----------|----------|----------|----------|
 |CHUNK 83|0x0014d80e|0x0110|0x0014d91e|0x0006ade0|0x1ca2| |  
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 84|NO|NO|0x000cdb48|0x0004b4dc|0x0016|SINGLE TEXT|
-|CHUNK 84|NO|NO|=|0x0004b6e4|=|SINGLE TEXT|
+|CHUNK 84|NO|NO|0x0073828|0x00045c98|0x000E|SINGLE TEXT|
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 85|NO|NO|0x000cdb5e|0x00036f28|0x0016|SINGLE TEXT|
-|CHUNK 85|NO|NO|=|0x0004442c|=|SINGLE TEXT|
+|CHUNK 85|NO|NO|0x0073836|0x00045CA0‬|0x0008|SINGLE TEXT|
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 86|NO|NO|0x000cdb74|0x00045084|0x0004|SINGLE TEXT|
-|CHUNK 86|NO|NO|=|0x00045548|=|SINGLE TEXT|
+|CHUNK 86|NO|NO|0x0073844|0x00045ca4|0x0008|SINGLE TEXT|
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 87|NO|NO|0x000cdb78|0x0004b4e8|0x0006|SINGLE TEXT|
-|CHUNK 87|NO|NO|=|0x0004b6ec|=|SINGLE TEXT|
+|CHUNK 87|NO|NO|0x000cdb48|0x0004b4dc|0x0016|SINGLE TEXT|
+|CHUNK 87|NO|NO|=|0x0004b6e4|=|SINGLE TEXT|
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 88|NO|NO|0x000cdb80|0x0004b4d4|0x0004|SINGLE TEXT|
+|CHUNK 88|NO|NO|0x000cdb5e|0x00036f28|0x0016|SINGLE TEXT|
+|CHUNK 88|NO|NO|=|0x0004442c|=|SINGLE TEXT|
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 89|NO|NO|0x000cdb84|0x0004bb28|0x000a|SINGLE TEXT|
+|CHUNK 89|NO|NO|0x000cdb74|0x00045084|0x0004|SINGLE TEXT|
+|CHUNK 89|NO|NO|=|0x00045548|=|SINGLE TEXT|
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 90|NO|NO|0x000dc228|0x0004709c|0x002a|SINGLE TEXT|
+|CHUNK 90|NO|NO|0x000cdb78|0x0004b4e8|0x0006|SINGLE TEXT|
+|CHUNK 90|NO|NO|=|0x0004b6ec|=|SINGLE TEXT|
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 91|NO|NO|0x00073658|0x0003bd94|0x0008|SINGLE TEXT| 
+|CHUNK 91|NO|NO|0x000cdb80|0x0004b4d4|0x0004|SINGLE TEXT|
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 92|NO|NO|0x00073666|0x0003bd9c|0x0008|SINGLE TEXT|
+|CHUNK 92|NO|NO|0x000cdb84|0x0004bb28|0x000a|SINGLE TEXT|
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 93|NO|NO|0x00073674|0x0003bda0|0x000e|SINGLE TEXT|
+|CHUNK 93|NO|NO|0x000dc228|0x0004709c|0x002a|SINGLE TEXT|
+|--------|-----------|----------|----------|----------|----------|----------|
+|CHUNK 94|NO|NO|0x00073658|0x0003bd94|0x0008|SINGLE TEXT| 
+|--------|-----------|----------|----------|----------|----------|----------|
+|CHUNK 95|NO|NO|0x00073666|0x0003bd9c|0x0008|SINGLE TEXT|
+|--------|-----------|----------|----------|----------|----------|----------|
+|CHUNK 96|NO|NO|0x00073674|0x0003bda0|0x000e|SINGLE TEXT|
 
 # UNUSED / LEFTOVER
 |CHUNK NUMBER|TEXT HEADER OFFSET|TEXT HEADER SIZE|TEXT DATA OFFSET|TEXT DATA POINTER|TEXT DATA SIZE|REMARK|
 |--------|-----------|----------|----------|----------|----------|----------|  
-|CHUNK 94|0x00cb742|0x036|0x00cb778|NO|0x402|NO CALLS / UNUSED ?|
+|CHUNK 97|0x00cb742|0x036|0x00cb778|NO|0x402|NO CALLS / UNUSED ?|
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 95|0x00cc9fc|0x044|0x00cca40|NO|0x50C|NO CALLS / UNUSED ?|
+|CHUNK 98|0x00cc9fc|0x044|0x00cca40|NO|0x50C|NO CALLS / UNUSED ?|
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 96|0x00d0b0c|0x0b9|0x00d0bc2|NO|0x916|NO CALLS / UNUSED ?|
+|CHUNK 99|0x00d0b0c|0x0b9|0x00d0bc2|NO|0x916|NO CALLS / UNUSED ?|
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 97|0x013249c|0xc|0x01324a8|NO|0x1fe|NO CALLS / UNUSED ?|
+|CHUNK 100|0x013249c|0xc|0x01324a8|NO|0x1fe|NO CALLS / UNUSED ?|
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 98|0x0132800|0x2|0x0132802|NO|0xcc|NO CALLS / UNUSED ?|
+|CHUNK 101|0x0132800|0x2|0x0132802|NO|0xcc|NO CALLS / UNUSED ?|
 
