@@ -6,7 +6,7 @@ RHS archives concatenate multiple text chunks, each chunk structure could be sim
 
 - `TOTAL LINES`: Total number of text lines in `TEXT DATA` chunk
 - `TEXT DATA SIZE`: Total size of TEXT DATA / size multiplied by `0x2`.
-- `TEXT DATA` : Game text using Rent a Hero [Text Format Struct](TEXT_Format.md) The only difference in text layout are special delimiters.
+- `TEXT DATA` : Game text using Rent a Hero [Text Format Struct](TEXT_Format.md) . Except for`FANMAILLIST.RHS` Chunk 3 having special delims.
 - `TEXT HEADER LIST` : An array of `uint16` short values, representing each dialogue offset, starting from `TEXT DATA` multiplied by `0x2`.
 - `CHUNK END`: A fixed string `\x00\x00`.
 
