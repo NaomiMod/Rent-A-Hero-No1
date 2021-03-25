@@ -33,7 +33,7 @@ Example:
 
 - TEXT DATA START : `\x60\x00\x60\x00` --> `TEXT 1` --> `TEXT 2` --> `TEXT 3`
 - CONCATENATE FOLLOWING LINES: `\x60\x00`, `TEXT 4`--> `TEXT 5`,`TEXT 6`...
-- TEXT DATA END: `TEXT 98` --> `TEXT 99` --> `TEXT 100`, `\x60\x00\x60\x00`
+- TEXT DATA END: `TEXT 98` --> `TEXT 99` --> `TEXT 100`, --> `\x60\x00\x60\x00`
 
 
 
