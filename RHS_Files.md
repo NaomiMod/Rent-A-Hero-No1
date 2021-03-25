@@ -20,13 +20,13 @@ RHS archives concatenate multiple text chunks, simplified as follows:
 |VAR|VAR|TEXT DATA       |
 |VAR|0x02|CHUNK END string: `\x00\x00`|
 
-# Special Delims !CHUNK 3 ONLY! :
+# Chunk 3 Special Delims:
 
 Used to build a scrollable page by concatenating multiple lines.
 
 |Value|Length|Description|
 |-------|------|-----------|
-|`\x60\x00\x60\x00`|0x4| ONLY FOR `CHUNK 3`! EXTRA DELIM USED AT START / END OF `TEXT DATA` |
+|`\x60\x00\x60\x00`|0x4| EXTRA DELIM USED AT START / END OF `TEXT DATA` |
 |`\x60\x00`|0x2|START CONCATENATING NEW LINES`\x60\x00`|
 
 
