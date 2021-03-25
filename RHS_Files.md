@@ -26,7 +26,7 @@ Used to build a scrollable page by concatenating multiple lines.
 
 |Value|Length|Description|
 |-------|------|-----------|
-|`\x60\x00\x60\x00`|0x4| EXTRA DELIM USED AT START / END OF `TEXT DATA` |
+|`\x60\x00\x60\x00`|0x4| USED AT START / END OF `TEXT DATA` |
 |`\x60\x00`|0x2|START CONCATENATING NEW LINES`\x60\x00`|
 
 Example:
