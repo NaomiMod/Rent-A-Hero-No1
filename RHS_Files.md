@@ -1,6 +1,6 @@
 # Mail .RHS Files
 
-RHS archives concatenate multiple text chunks, simplified as follows:
+RHS archives concatenate multiple text chunks, each one simplified as follows:
 
 `TOTAL LINES` --> `TEXT CHUNK DATA SIZE` --> `TEXT POINTER LIST` --> `TEXT DATA` --> `CHUNK END`
 
