@@ -2,7 +2,7 @@
 
 RHS archives concatenate multiple text chunks, simplified as follows:
 
-`TOTAL LINES` --> `TEXT CHUNK DATA SIZE` --> `TEXT POINTER LIST` --> `TEXT DATA` --> `END OF CHUNK`
+`TOTAL LINES` --> `TEXT CHUNK DATA SIZE` --> `TEXT POINTER LIST` --> `TEXT DATA` --> `CHUNK END`
 
 - `TOTAL LINES`: Total number of text lines in `TEXT DATA` chunk
 - `TEXT CHUNK DATA SIZE`: Total size of `TEXT DATA` size, multiplied by `0x2`.
