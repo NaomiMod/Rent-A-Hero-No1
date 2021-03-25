@@ -2,7 +2,7 @@
 
 RHS archives concatenate multiple text chunks, simplified as follows:
 
-`TEXT TOTAL LINES` --> `TEXT CHUNK DATA SIZE` --> `TEXT POINTER LIST` --> `TEXT DATA` --> `END OF CHUNK`
+`TOTAL LINES` --> `TEXT CHUNK DATA SIZE` --> `TEXT POINTER LIST` --> `TEXT DATA` --> `END OF CHUNK`
 
 - `TOTAL LINES`: Total number of text lines in `TEXT DATA` chunk
 - `TEXT CHUNK DATA SIZE`: Total size of `TEXT DATA` size, multiplied by `0x2`.
@@ -14,7 +14,7 @@ RHS archives concatenate multiple text chunks, simplified as follows:
 
 |Address|Length|Description|
 |-------|------|-----------|
-|0x00|0x04|TEXT TOTAL LINES|
+|0x00|0x04|TOTAL LINES|
 |0x04|0x04|TEXT CHUNK DATA SIZE|
 |0x08|VAR|TEXT POINTER LIST|
 |VAR|VAR|TEXT DATA       |
@@ -26,7 +26,7 @@ Used to build a scrollable page by concatenating multiple lines.
 
 |Value|Length|Description|
 |-------|------|-----------|
-|`\x60\x00\x60\x00`|0x4| ONLY FOR `CHUNK 3`! EXTRA DELIM USED AT START / END OF TEXT DATA |
+|`\x60\x00\x60\x00`|0x4| ONLY FOR `CHUNK 3`! EXTRA DELIM USED AT START / END OF `TEXT DATA` |
 |`\x60\x00`|0x2|START CONCATENATING NEW LINES`\x60\x00`|
 
 
