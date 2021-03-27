@@ -2,9 +2,9 @@
 
 RHS archives concatenate multiple text chunks, each one simplified as follows:
 
-`TOTAL LINES` --> `TEXT CHUNK DATA SIZE` --> `TEXT POINTER LIST` --> `TEXT DATA` --> `CHUNK END`
+`POINTERS CHUNK SIZE` --> `TEXT CHUNK DATA SIZE` --> `TEXT POINTER LIST` --> `TEXT DATA` --> `CHUNK END`
 
-- `TOTAL LINES`: Total number of text lines in `TEXT DATA` chunk
+- `TEXT POINTERS CHUNK SIZE`: Total size of `TEXT POINTER LIST` chunk
 - `TEXT CHUNK DATA SIZE`: Total size of `TEXT DATA` size, multiplied by `0x2`.
 - `TEXT POINTER LIST` : An array of `uint16` short values, representing each dialogue relative offset, starting from own `TEXT DATA` multiplied by `0x2`.
 - `TEXT DATA` : Game text using Rent a Hero [Text Format Struct](TEXT_Format.md) . *Except for `Chunk 3`* having special delims.
@@ -14,7 +14,7 @@ RHS archives concatenate multiple text chunks, each one simplified as follows:
 
 |Address|Length|Description|
 |-------|------|-----------|
-|0x00|0x04|TOTAL LINES|
+|0x00|0x04|TEXT POINTERS CHUNK SIZE |
 |0x04|0x04|TEXT CHUNK DATA SIZE|
 |0x08|VAR|TEXT POINTER LIST|
 |VAR|VAR|TEXT DATA       |
