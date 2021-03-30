@@ -27,7 +27,7 @@ In order to call specific text, the game use one or multiple `TEXT DATA POINTERS
 |CHUNK  1|=|=|=|0x000072b8|=|  |
 |CHUNK  1|=|=|=|0x000075d8|=|  |
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK  2|0x0009acf8|0x0010|0x0009ad08|0x00012470|0x0040|Pointer to Text 1 - Floors selection|   
+|CHUNK  2|0x0009acf8|0x0010|0x0009ad08|0x00012470|0x0040|Floors selection - Pointer to Text 1|   
 |CHUNK  2|=|=|0x0009ad08|0x0009ad78|=|Pointer to Text 1|
 |CHUNK  2|=|=|0x0009ad0c|0x0009ada4|=|Pointer to Text 2|
 |CHUNK  2|=|=|0x0009ad0c|0x0009adc8|=|Pointer to Text 2|
@@ -252,20 +252,15 @@ In order to call specific text, the game use one or multiple `TEXT DATA POINTERS
 |--------|-----------|----------|----------|----------|----------|----------|
 |CHUNK 81|0x00132e08|0x001c|0x00132e24|0x001332e4|0x0350|Job Text 31|  
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 82|0x0014d7bc|0x0004|0x0014d7c0|0x0006aca8|0x004e|Got Energy Drink messages
-|  
+|CHUNK 82|0x0014d7bc|0x0004|0x0014d7c0|0x0006aca8|0x004e|Got Energy Drink messages|  
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 83|0x0014d80e|0x0110|0x0014d91e|0x0006ade0|0x1ca2|Inspect items description
-|  
+|CHUNK 83|0x0014d80e|0x0110|0x0014d91e|0x0006ade0|0x1ca2|Inspect items description|  
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 84|NO|NO|0x00073828|0x00045c98|0x000E|Default Hero Name
-|
+|CHUNK 84|NO|NO|0x00073828|0x00045c98|0x000E|Default Hero Name|
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 85|NO|NO|0x00073836|0x00045CA0‬|0x0008|Default First Name
-|
+|CHUNK 85|NO|NO|0x00073836|0x00045CA0‬|0x0008|Default First Name|
 |--------|-----------|----------|----------|----------|----------|----------|
-|CHUNK 86|NO|NO|0x00073844|0x00045ca4|0x0008|Default Last Name
-|
+|CHUNK 86|NO|NO|0x00073844|0x00045ca4|0x0008|Default Last Name|
 |--------|-----------|----------|----------|----------|----------|----------|
 |CHUNK 87|NO|NO|0x000cdb48|0x0004b4dc|0x0016||
 |CHUNK 87|NO|NO|=|0x0004b6e4|=|SINGLE TEXT|
