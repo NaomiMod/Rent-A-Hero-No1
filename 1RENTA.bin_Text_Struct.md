@@ -1,11 +1,11 @@
 # 1RENTA.bin TEXT STRUCT
 
-Text stored in game executable is composed by `94 chunks` each one made by a `TEXT HEADER` and `TEXT DATA` part.
+Text stored in game executable is composed by `94 chunks` each one made by `TEXT POINTERS` and `TEXT DATA` part.
 
-In order to call specific text, the game use one or multiple `TEXT DATA POINTERS` to specify the entry point of `TEXT DATA`within game executable. 
+In order to call specific text, the game use one or multiple `TEXT CALL POINTERS` to specify the entry point of `TEXT DATA`within game executable. 
 
 
-- `TEXT HEADER` : An array of `uint16` short values, representing each dialogue offset, starting from `TEXT DATA` multiplied by `0x2`.
+- `TEXT POINTERS OFFSET` : An array of `uint16` short values, representing each dialogue offset, starting from `TEXT DATA` multiplied by `0x2`.
 
 - `TEXT DATA` : Game text using Rent a Hero [Text Format Struct](TEXT_Format.md).
 
@@ -16,7 +16,7 @@ In order to call specific text, the game use one or multiple `TEXT DATA POINTERS
 
 # CHUNK INFO:
 
-|CHUNK NUMBER|TEXT HEADER OFFSET|TEXT HEADER SIZE|TEXT DATA OFFSET|TEXT DATA POINTER|TEXT DATA SIZE|REMARK|
+|CHUNK NUMBER|TEXT POINTERS OFFSET|TEXT POINTERS SIZE|TEXT DATA OFFSET|TEXT CALL POINTER|TEXT DATA SIZE|REMARK|
 |--------|-----------|----------|----------|----------|----------|----------|  
 |CHUNK  0|0x00caf62|0x0036|0x0caf98|0x00398ac|0x0238|My Donald Burger - Items|   
 |CHUNK  0|=|=|=|0x0040f8c|=|  |
