@@ -287,7 +287,7 @@ In order to call specific text, the game use one or multiple `TEXT CALL POINTERS
 | CHUNK 96     | NO                   | NO                 | 0x00073674       | 0x000e         | 0x0003bda0        | Rental man                              |
 
 # UNUSED / LEFTOVER
-| CHUNK NUMBER | TEXT HEADER OFFSET | TEXT HEADER SIZE | TEXT DATA OFFSET | TEXT DATA SIZE | TEXT DATA POINTER | REMARK              |
+| CHUNK NUMBER | TEXT POINTERS OFFSET | TEXT POINTERS SIZE | TEXT DATA OFFSET | TEXT DATA SIZE | TEXT CALL POINTER | REMARK                                  |
 |--------------|--------------------|------------------|------------------|----------------|-------------------|---------------------|
 | CHUNK 97     | 0x00cb742          | 0x036            | 0x00cb778        | 0x402          | NO                | NO CALLS / UNUSED ? |
 | --------     | -----------        | ----------       | ----------       | ----------     | ----------        | ----------          |
