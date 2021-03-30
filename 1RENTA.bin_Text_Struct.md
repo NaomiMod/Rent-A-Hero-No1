@@ -9,7 +9,7 @@ In order to call specific text, the game use one or multiple `TEXT CALL POINTERS
 
 - `TEXT DATA` : Game text using Rent a Hero [Text Format Struct](TEXT_Format.md).
 
-- `TEXT DATA POINTER OFFSET`: Data pointer specifying where to read `TEXT DATA`.
+- `TEXT CALL POINTER`: Data pointer specifying where to read `TEXT DATA`for related functions.
 
  
 
