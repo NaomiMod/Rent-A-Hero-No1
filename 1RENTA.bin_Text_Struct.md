@@ -105,7 +105,7 @@ In order to call specific text, the game use one or multiple `TEXT CALL POINTERS
 | CHUNK 18     | 0x000d4508           | 0x000e             | 0x000d4516       | 0x0094         | 0x0003f264        | Combo names                             |
 | CHUNK 18     | =                    | =                  | =                | =              | 0x0003fd24        |                                         |
 | --------     | -----------          | ----------         | ----------       | ----------     | ----------        | ----------                              |
-| CHUNK 19     | 0x000d45aa           | 0x0018             | 0x000d45c2       | 0x00b0         | 0x0003fd40        | Attack names                            |
+| CHUNK 19     | 0x000d45aa           | 0x0018             | 0x000d45c2       | 0x00b0         | 0x0003fd40        | Attack names  !Text 4 has 2 pointers!   |
 | --------     | -----------          | ----------         | ----------       | ----------     | ----------        | ----------                              |
 | CHUNK 20     | 0x000d469a           | 0x0022             | 0x000d46bc       | 0x0148         | 0x0003f50c        | Special Moves names                     |
 | CHUNK 20     | =                    | =                  | =                | =              | 0x0004036c        |                                         |
