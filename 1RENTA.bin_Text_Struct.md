@@ -187,7 +187,7 @@ In order to call specific text, the game use one or multiple `TEXT CALL POINTERS
 | --------     | -----------          | ----------         | ----------       | ----------     | ----------        | ----------                              |
 | CHUNK 49     | 0x000dd7b6           | 0x000a             | 0x000dd7c0       | 0x00b6         | 0x0004d410        | One-Shot Minigame                       |
 | --------     | -----------          | ----------         | ----------       | ----------     | ----------        | ----------                              |
-| CHUNK 50     | 0x000e1378           | 0x0006             | 0x000e139e       | 0x002E         | 0x0005ab84        | Gindou Kin,Senka Kin, Kirarin Kin (?)   |
+| CHUNK 50     | 0x000e1378           | 0x0006             | 0x000e139e       | 0x002E         | 0x0005ab84        | Gindou Kin(?) !UNK append data!         |
 | --------     | -----------          | ----------         | ----------       | ----------     | ----------        | ----------                              |
 | CHUNK 51     | 0x0012fd94           | 0x0002             | 0x0012fd96       | 0x0112         | 0x0013317c        | Job Text 1                              |
 | CHUNK 51     | =                    | =                  | =                | =              | 0x001332f0        |                                         |
