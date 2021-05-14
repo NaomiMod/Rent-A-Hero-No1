@@ -27,7 +27,7 @@ In order to call specific text, the game use one or multiple `TEXT CALL POINTERS
 | CHUNK 1      | =                    | =                  | =                | =              | 0x000072b8        |                                         |
 | CHUNK 1      | =                    | =                  | =                | =              | 0x000075d8        |                                         |
 | --------     | -----------          | ----------         | ----------       | ----------     | ----------        | ----------                              |
-| CHUNK 2      | 0x0009acf8           | 0x0010             | 0x0009ad08       | 0x0040         | 0x00012470        | Floors selection - Pointer to Text 1    |
+| CHUNK 2      | 0x0009acf8           | 0x0010             | 0x0009ad08       | 0x0040         | 0x0001246C‬        | Floors selection - Pointer to Text 1    |
 | CHUNK 2      | =                    | =                  | 0x0009ad08       | =              | 0x0009ad78        | Pointer to Text 1                       |
 | CHUNK 2      | =                    | =                  | 0x0009ad0c       | =              | 0x0009ada4        | Pointer to Text 2                       |
 | CHUNK 2      | =                    | =                  | 0x0009ad0c       | =              | 0x0009adc8        | Pointer to Text 2                       |
