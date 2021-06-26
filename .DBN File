@@ -1,0 +1,12 @@
+# .DBN Files Container (WIP)
+
+.DBN store a number of assets for a particular scene in RAH "Sentai-Styled" Opening movie, which is rendered in realtime.
+
+# Header
+
+|Offset|Size|Description|
+|-------|------------|------------|
+|0x00|0x4|long, Number of data pointers (start fm 0)*|
+|0x04|0x4|long, Data pointer|
+
+Please note, after last data pointer there might be 00 padding until data start.
