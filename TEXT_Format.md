@@ -1,21 +1,20 @@
 #  Text format struct
 
-- Every char is mapped by a `uint16` short value, corresponding to a ASCII JIS character used by game font using VWF in 2 types: `12x24px` / `24x24px`.
-A regular western char has a width of `12 pixels` whilst most japanese chars `24 pixels`.
+- Every char is mapped to a `uint16` short value, corresponding to SHIFT-JIS / unicode characters used by the game. Uses VWF in 2 types: `12x24px` (halfwidth chars) / `24x24px` (wide chars).
 
-- Regular text box holds a maximum of `3 text rows`.
+- Regular text box holds a maximum of `3 text lines`.
 
-- `Each row` can be `480 px wide max`, after that next char will automatically `wrap` to the next row.
+- `Each line` can be `480 px wide max`, after that next char will automatically `wrap` to the next line.
 
 # Table
 
 You can find the complete table with up-to-date values [HERE](https://github.com/NaomiMod/Rent-A-Hero-No1/blob/main/rtable.txt)
 
 
-Other than ASCII, certain values provide additional text formatting / game global parameter / text effects:
+Other than text, control codes provide additional formatting / flags / effects:
 
 
-# Formatting
+# Control codes
 
 |Value|Description|
 |-------|------------|
